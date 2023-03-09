@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    .menuPadre {
+        .navbar {
+            padding-top: 20px;
+            .container-fluid {
+                .brand {
+                    padding-left: 20px;
+                }
+            }
+        }
+        .dropdown {
+            .bth {
+                background-color: rgb(0, 0, 0);
+                width: 40px;
+                border-radius: 1px;
+                display: grid;
+                grid-template-columns: 3000px;
+                padding-right: 10px;
+                padding-left: 15px;
+                .menubur {
+                    padding-left: 18px;
+                    padding-right: 1px;
+                    max-width: 60px;
+                    margin: 0px;
+                    margin-top: 0px;
+                }
+            }
+            .dropdown {
+                background-color: #292929;
+            }
+        }
+        .desk {
+            font-size: 0px;
+        }
+    }
+}
+
+main {
+    section {
+        .hero {
+            margin: 0px;
+            padding-top: 0px;
+            background-color: #2E302E;
+            padding-bottom: 30px;
+            .monitor {
+                border: none
+            }
+            .parr {
+                h1 {
+                    font-style: normal;
+                    font-weight: bolder;
+                    color: #7ECD97;
+                }
+                .primerParrafo {
+                    font-size: medium;
+                    font-style: normal;
+                    font-weight: lighter;
+                    color: rgb(255, 255, 255);
+                    padding-bottom: 20px;
+                    .anim {
+                        .cta {
+                            .cta:hover {
+                                background-color: #ffe601;
+                            }
+                            .bt {
+                                padding: 50pz;
+                                color: #000000;
+                                font-weight: bolder;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

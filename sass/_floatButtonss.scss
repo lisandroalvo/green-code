@@ -1,0 +1,30 @@
+#id {
+    .up-container {
+        position: fixed;
+        right: 0px;
+        top: 70%;
+        bottom: 24px;
+        padding: 24px;
+        animation: fade-up 1000ms forwards;
+        animation-delay: 1000ms;
+        color: rgb(255, 255, 255);
+        .up-btn {
+            font-size: 48px;
+            color: #5bb4e7;
+            display: inline-block;
+            transition: all 400ms;
+        }
+        span {
+            position: absolute;
+            top: 0;
+            left: 4px;
+            font-weight: bold;
+            color: #0a5d8d;
+            transform: rotateZ(20deg) translateX(30px);
+            opacity: 0;
+            transition: all 400ms;
+            &hover: transform: rotateZ(0deg) translateX(28px);
+            opacity: 1
+        }
+    }
+}

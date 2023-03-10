@@ -1,0 +1,58 @@
+.dropdown-item {
+    color: $color_1;
+    cursor: pointer;
+}
+
+.dropdown-divider {
+    background-color: $background-color_3;
+}
+
+.dropdown-menu.show {
+    display: block;
+    --bs-dropdown-link-active-bg: #7ECD97;
+}
+
+.dropdown-menu {
+    background-color: $background-color_2;
+}
+
+.menubur {
+    padding-left: 18px;
+    padding-right: 1px;
+    max-width: 60px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.brand {
+    padding-left: 20px;
+}
+
+.logoimg {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.cta {
+    &:hover {
+        background-color: $background-color_5;
+    }
+    grid-area: cta;
+}
+
+.menuNav {
+    grid-area: menuNav;
+    font-size: smaller;
+    background-color: $background-color_8;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+    justify-content: center;
+    margin: 0px;
+}

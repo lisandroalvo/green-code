@@ -1,0 +1,92 @@
+h2 {
+    color: $color_4;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bolder;
+    color: $color_9;
+}
+
+h3 {
+    color: $color_9;
+}
+
+.primerParrafo {
+    font-size: medium;
+    font-style: normal;
+    font-weight: lighter;
+    color: $color_4;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: larger;
+    text-align: center;
+    color: $color_2;
+    display: grid;
+}
+
+p {
+    padding-left: 10px;
+    color: $color_11;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.pt {
+    color: $color_3;
+    font-size: larger;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 15%;
+    padding-bottom: 0px;
+}
+
+.cards {
+    background: #ffffff;
+}
+
+.read {
+    color: $color_10;
+    text-decoration-color: blue;
+    text-decoration-line: underline;
+}
+
+.texth2 {
+    color: $color_5;
+}
+
+.more {
+    padding-top: 30px;
+    background-color: $background-color_9;
+    padding-bottom: 20px;
+}
+
+section {
+    grid-area: section;
+}
+
+.cardsh3 {
+    margin: 0px;
+    color: $color_11;
+    background-color: $background-color_10;
+}
+
+.practices-h2 {
+    color: $color_11;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+
+.practices-h3 {
+    color: $color_12;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}

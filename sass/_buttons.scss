@@ -1,0 +1,140 @@
+button {
+    background-color: $background-color_4;
+    width: 250px;
+    height: 38px;
+    stroke: none;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+.cta {
+    &:hover {
+        background-color: $background-color_5;
+    }
+    grid-area: cta;
+}
+
+.buttonme {
+    background-color: $background-color_6;
+    color: $color_2;
+    border: none;
+    transition: 0.5s;
+    grid-area: buttonme;
+    &:hover {
+        background-color: $background-color_7;
+    }
+}
+
+.bt {
+    padding: 50pz;
+    color: $color_3;
+    font-weight: bolder;
+}
+
+.bth {
+    background-color: $background-color_8;
+    width: 40px;
+    border-radius: 1px;
+    display: grid;
+    grid-template-columns: 3000px;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+.up-container {
+    position: fixed;
+    right: 0px;
+    top: 70%;
+    bottom: 24px;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+    color: $color_4;
+    .up-btn {
+        font-size: 48px;
+        color: $color_5;
+        display: inline-block;
+        transition: all 400ms;
+        &:hover+span {
+            transform: rotateZ(0deg) translateX(28px);
+            opacity: 1;
+        }
+    }
+    span {
+        position: absolute;
+        top: 0;
+        left: 4px;
+        font-weight: bold;
+        color: $color_6;
+        transform: rotateZ(20deg) translateX(30px);
+        opacity: 0;
+        transition: all 400ms;
+    }
+}
+
+.whatsapp-btn-container {
+    position: fixed;
+    right: 0px;
+    top: 80%;
+    bottom: 24px;
+    padding: 24px;
+    animation: fade-up 1000ms forwards;
+    animation-delay: 1000ms;
+    .whatsapp-btn {
+        font-size: 48px;
+        color: $color_7;
+        display: inline-block;
+        transition: all 400ms;
+        &:hover {
+            transform: scale(1.2);
+        }
+        &:hover+span {
+            transform: rotateZ(0deg) translateX(0px);
+            opacity: 1;
+        }
+    }
+    span {
+        position: absolute;
+        top: 0;
+        left: 4px;
+        font-weight: bold;
+        color: $color_8;
+        transform: rotateZ(20deg) translateX(10px);
+        opacity: 0;
+        transition: all 400ms;
+    }
+}
+
+.cards-btn-container {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    .cards-btn-b {
+        &:hover {
+            background-color: $background-color_7;
+        }
+    }
+}
+
+.cards-btn-b {
+    background-color: $background-color_6;
+    font-size: 150px;
+    height: 50px;
+    padding-left: 2px;
+}
+
+.cards-btn {
+    font-size: 30px;
+    padding-right: 0px;
+    padding-top: 0px;
+    color: $color_1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    padding-left: 15%;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+    gap: 30px;
+}

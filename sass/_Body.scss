@@ -1,0 +1,197 @@
+$color_1: #ffffff;
+$color_2: white;
+$color_3: #000000;
+$color_4: rgb(255, 255, 255);
+$color_5: #5bb4e7;
+$color_6: #0a5d8d;
+$color_7: #25d366;
+$color_8: #075e54;
+$color_9: #7ECD97;
+$color_10: rgb(55, 70, 207);
+$color_11: #292929;
+$color_12: #2E302E;
+$color_13: black;
+$color_14: #00a2ff;
+$color_15: #006ead;
+$background-color_1: #2E302E;
+$background-color_2: #292929;
+$background-color_3: #7ECD97;
+$background-color_4: #ffffff;
+$background-color_5: #ffe601;
+$background-color_6: #badff5;
+$background-color_7: #00a2ff;
+$background-color_8: rgb(0, 0, 0);
+$background-color_9: #F5E345;
+$background-color_10: white;
+$background-color_11: none;
+$background-color_12: #none;
+$background-color_13: #000000;
+$background-color_14: black;
+$border-top-color_1: #9ef79e;
+$border-bottom-color_1: #F5E345;
+$border-bottom-color_2: #9ef79e;
+@import "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;700&family=Roboto:wght@300&display=swap";
+@keyframes fade-up {
+    100% {
+        bottom: 24px;
+        opacity: 1;
+    }
+}
+
+
+/*dropwon*/
+
+
+/*buttons*/
+
+
+/*text*/
+
+
+/*menuNav*/
+
+.logo {
+    border: none;
+    max-width: 200px;
+    margin: 0px;
+}
+
+.monitor {
+    border: none;
+}
+
+.Ig {
+    max-width: 40px;
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display: flex;
+    -ms-flex-align: baseline;
+}
+
+.igText {
+    color: $color_2;
+}
+
+.section-serv {
+    background-color: $background-color_12;
+}
+
+.cards-service {
+    background-color: $background-color_11;
+    grid-template-rows: max-content 200px 1fr;
+    color: $color_13;
+}
+
+.cards-ux {
+    color: $color_4;
+    border-style: ridge;
+    border-radius: 50px;
+    border-bottom-color: $border-bottom-color_2;
+    border-top-color: $border-top-color_1;
+    border-inline-start-color: #9ef79e;
+    border-inline-color: #9ef79e #9ef79e;
+    border-width: 2px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px 2px rgb(77, 77, 77);
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    &:hover {
+        box-shadow: 0 10px 50px 10px rgb(77, 77, 77);
+        padding-top: 0px;
+        max-width: 100%;
+    }
+}
+
+.cardh2 {
+    padding-top: 18px;
+    color: $color_11;
+}
+
+.serv {
+    background-color: $background-color_10;
+}
+
+li {
+    text-decoration: none;
+}
+
+.ul-cards {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    background-color: $background-color_10;
+    padding-left: 80px;
+    li {
+        text-decoration: none;
+    }
+}
+
+.best-1 {
+    background-color: $background-color_10;
+}
+
+.tittle-02 {
+    color: $color_11;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+
+.books {
+    background-color: $background-color_10;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.book-tittle {
+    color: $color_14;
+    &:hover {
+        text-decoration: underline;
+        color: $color_15;
+    }
+}
+
+.book-1 {
+    padding-top: 40px;
+}
+
+.book-h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    color: $color_12;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.resources-h3 {
+    padding-bottom: 50px;
+}
+
+.cards-books {
+    border: #000000;
+    border-radius: 05px;
+    border: 2px;
+    border-width: 2px;
+    border-style: outset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    display: grid;
+    gap: 0px;
+    cursor: pointer;
+    &:hover {
+        box-shadow: 0px 10px 40px 5px rgb(150, 150, 150);
+    }
+}
+
+.desk {
+    font-size: 0px;
+}

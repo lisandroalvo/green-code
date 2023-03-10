@@ -1,0 +1,79 @@
+aside {
+    grid-area: sidebar;
+}
+
+main {
+    grid-area: main;
+}
+
+.hero {
+    grid-area: hero;
+    margin: 0px;
+    padding-top: 0px;
+    background-color: $background-color_1;
+    padding-bottom: 30px;
+}
+
+.parr {
+    grid-area: parr;
+}
+
+.flexContainer {
+    grid-area: flexContainer;
+    border-width: 00px;
+    background-color: $background-color_4;
+    border-style: dashed;
+    border-radius: 50px;
+    border-bottom-color: $border-bottom-color_1;
+    border-inline-start-color: #9ef79e;
+    border-inline-color: #9ef79e #9ef79e;
+    border-width: 20px;
+    padding-bottom: 50px;
+}
+
+.news {
+    grid-area: news;
+}
+
+.news2 {
+    grid-area: news2;
+}
+
+div {
+    more {
+        grid-area: more;
+    }
+    .foot {
+        display: flex;
+        background-color: $background-color_11;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+ul {
+    font-size: smaller;
+    background-color: $background-color_8;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+    justify-content: center;
+    margin: 0px;
+    text-decoration: none;
+}
+
+a {
+    color: $color_9;
+    text-decoration: none;
+    margin: 0px;
+}
+
+img {
+    max-width: 200px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 50px;
+}

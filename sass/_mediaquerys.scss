@@ -1,0 +1,168 @@
+@media (min-width:500px) {
+    .menu-desktop {
+        opacity: 100%;
+        color: $color_3;
+        background-color: $background-color_13;
+    }
+    .menuPadre {
+        margin: 0px;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: "logo logo" "manuNav menuNav";
+    }
+    .hero {
+        margin: 0px;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: "monitor monitor" " "primerParrafo cta";";
+    }
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 14px;
+        }
+    }
+    footer {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:768px) {
+    .menuPadre {
+        background-color: $background-color_14;
+        margin: 0px;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-areas: "header header header" "logo logo logo ";
+    }
+    .logo {
+        max-width: 200px;
+        padding-right: 1000px;
+        border: none;
+    }
+    .menuNav {
+        padding-bottom: 30px;
+        font-size: x-large;
+        background-color: $background-color_8;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+        justify-items: end;
+    }
+    .monitor {
+        max-width: 600px;
+    }
+    .dropdown {
+        padding-left: 650px;
+        font-size: xx-large;
+    }
+    a.brand {
+        padding-left: 100px;
+        font-size: xx-large;
+    }
+    .imgMe {
+        max-width: 600px;
+    }
+    img.nike {
+        max-width: 700px;
+    }
+    .imgleft {
+        max-width: 700px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .pt {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .read {
+        font-size: 30px;
+    }
+    .buttonme {
+        width: 350px;
+        height: 100px;
+        font-size: xx-large;
+    }
+    .cta {
+        width: 350px;
+        height: 100px;
+        font-size: xx-large;
+    }
+}
+
+@media (min-width:1024px) {
+    .menuPadre {
+        background-color: $background-color_14;
+        margin: 0px;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-areas: "header header header" "logo logo logo ";
+    }
+    .logo {
+        max-width: 200px;
+        padding-right: 1000px;
+        border: none;
+    }
+    .menuNav {
+        padding-bottom: 30px;
+        font-size: x-large;
+        background-color: $background-color_8;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 15px;
+        justify-items: end;
+    }
+    .monitor {
+        max-width: 600px;
+    }
+    .dropdown {
+        opacity: 0%;
+    }
+    a.brand {
+        padding-left: 100px;
+        font-size: xx-large;
+    }
+    .imgMe {
+        max-width: 600px;
+    }
+    img.nike {
+        max-width: 700px;
+    }
+    .imgleft {
+        max-width: 700px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .pt {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .primerParrafo {
+        font-size: x-large;
+    }
+    .read {
+        font-size: 30px;
+    }
+    .buttonme {
+        width: 350px;
+        height: 50px;
+        font-size: x-large;
+    }
+    .cta {
+        width: 350px;
+        height: 50px;
+        font-size: x-large;
+        text-align: center;
+    }
+    .desk {
+        font-size: 20px;
+        padding-left: 400px;
+    }
+    a {
+        padding-left: 020px;
+    }
+    header {
+        padding-left: 100px;
+    }
+}

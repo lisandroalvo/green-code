@@ -77,3 +77,54 @@ img {
     margin-top: 15px;
     border-radius: 50px;
 }
+
+.me-about {
+    max-width: 550px;
+}
+
+.about-section {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 100px;
+}
+
+#contact1 {
+    background-color: #F5E345;
+}
+
+.input {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: #5bb4e7;
+    color: white;
+    font-size: 20px;
+}
+
+.form {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.button-input {
+    padding-bottom: 100px;
+}
+
+label {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border: none;
+}
+
+textarea {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
